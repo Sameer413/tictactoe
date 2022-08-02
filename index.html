@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <main>
+      <div class="end dn"  id="end">
+        <div>
+          <div id="d" >Player &nbsp;<span id="winner" class="won-player">X</span> &nbsp; Won</div>
+          <div class="center"><div id="restart" class="end-btn">Restart</div></div>
+        </div>
+      </div>
+      <nav><div class="logo">Tic Tac Toe</div></nav>
+      <div class="con">
+        <div class="game-box">
+          <div id="0" class="empty tile bt bl"></div>
+          <div id="1" class="empty tile bt"></div>
+          <div id="2" class="empty tile bt br"></div>
+          <div id="3" class="empty tile bl"></div>
+          <div id="4" class="empty tile"></div>
+          <div id="5" class="empty tile br"></div>
+          <div id="6" class="empty tile bl bb"></div>
+          <div id="7" class="empty tile bb"></div>
+          <div id="8" class="empty tile br bb"></div>
+        </div>
+        <div class="info-box">
+          <div class="turn-info">
+            <div id="X" class="info-X turn">X</div>
+            <div id="O" class="info-O">O</div>
+          </div>
+          <div class="btn" id="btn">Reset</div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

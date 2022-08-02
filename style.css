@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  nav {
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo{
+      font-size: 7vh;
+      color: white;
+  }
+  
+  .con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(68, 67, 67);
+    height: 92vh;
+  }
+  
+  .game-box {
+    display: grid;
+    margin: 5vw;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+  }
+  
+  .info-box {
+    margin: 5vw;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tile { 
+    transition: 0.2s ease-in-out ;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+   
+  }
+  
+  .tile:hover{
+    background-color: rgb(37, 37, 37);
+  
+  }
+  
+  .turn-info{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .info-X {
+      font-size: 60px;
+      margin: 2vw;
+      transition: 0.4s ease-in-out ;
+  }
+  
+  .info-O {
+      font-size: 60px;
+      margin: 3vw;
+      transition: 0.4s ease-in-out ;
+  }
+  
+  .turn{
+      font-size: 8em;
+      color: white;
+      margin-top: 0rem;
+  }
+  
+  .btn{
+      font-size: 2rem;
+      border: 2px solid wheat;
+      margin-top: 2vw;
+  }
+  
+  .btn:hover{
+      background-color: wheat;
+  }
+  
+  .bl{border-left: 0px;}
+  .br{border-right: 0px;}
+  .bt{border-top: 0px;}
+  .bb{border-bottom: 0px;}
+  
+  .end{
+      position: absolute;
+      height: 100vh;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      opacity: 0.9;
+      color: white;
+      font-size: 10vw;
+      background-color: black;
+      transition: 0.8s ease-in-out ;
+  }
+  
+  .dn{
+    display: none;
+  }
+  
+  .end-btn{
+    margin-top: 10px;
+    font-size: 5vw;
+    width: 20vw;
+    border: 5px solid wheat;
+    border-radius: 20px
+  }
+  .end-btn:hover{
+      background-color: wheat;
+      color: black;
+  }
+  
+  .center{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+  }
